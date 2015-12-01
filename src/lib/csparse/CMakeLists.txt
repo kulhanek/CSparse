@@ -74,7 +74,7 @@ IF(LIBS_SHARED)
                             VERSION ${CSPARSE_VERSION})
     INSTALL(TARGETS 
                 csparse_shared
-            LIBRARY DESTINATION
+            DESTINATION
                 lib
             )
 ENDIF(LIBS_SHARED)
