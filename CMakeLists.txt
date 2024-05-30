@@ -5,9 +5,8 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.10 FATAL_ERROR)
 #SET(CMAKE_VERBOSE_MAKEFILE ON)
 
-PROJECT(CSparse)
-
 # define project name ----------------------------------------------------------
+PROJECT(CSparse)
 SET(CSPARSE_VERSION 2.2.1)
 
 # what languages we use --------------------------------------------------------
